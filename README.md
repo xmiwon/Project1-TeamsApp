@@ -1,1 +1,1 @@
-# Project1-TeamsApp
+# Teams app in React.js
