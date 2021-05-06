@@ -15,7 +15,7 @@ import TabConfig from "./TabConfig";
  * The main app which handles the initialization and routing
  * of the app.
  */
-function App() {
+const App = () => {
 
   // Initialize the Microsoft Teams SDK
   microsoftTeams.initialize();
