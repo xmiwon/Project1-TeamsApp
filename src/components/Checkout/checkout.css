@@ -1,0 +1,112 @@
+* {
+    background-color: lightslategray;
+    color: white;
+}
+.flex-container {
+    
+    padding: 0;
+    margin: 10px;
+    list-style: none;
+    
+    -ms-box-orient: horizontal;    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: grid;
+    
+      
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+  }
+  
+  .flex-item:nth-of-type(1) { flex-grow: 1; }
+  .flex-item:nth-of-type(2) { flex-grow: 1; }
+  .flex-item:nth-of-type(3) { flex-grow: 2; }
+  .flex-item:nth-of-type(4) { flex-grow: 1; }
+  .flex-item:nth-of-type(5) { flex-grow: 1; }
+  
+  .flex-item {
+    width: 400px;
+    background: lightskyblue;
+    border: 3px solid rgba(0,0,0,.2);
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+  .Buttons {
+        background-color: lightslategray;
+      padding: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+  }
+
+.inbutton {
+    border-radius: 50%;    
+    background-color: limegreen;
+    margin: 5px;
+}
+.utbutton {
+    border-radius: 50%;
+    background: blue;
+    margin: 5px;
+}
+.innerdiv {
+    height: auto;
+    width: auto;
+    margin: 20px;
+    padding-left: 20px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  } 
+
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  
+  .button4:hover {background-color: #e7e7e7;}
+  
