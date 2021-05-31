@@ -1,0 +1,19 @@
+#table-head {
+    display: block;
+    width: 100%;
+}
+#table-body {
+    
+}
+#table-body {
+    display: block;
+    overflow-y: auto;
+    height: 200px;
+    width: 100%;
+}
+
+#tr-body, #tr-head {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
